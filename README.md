@@ -1,3 +1,7 @@
+Chat app build using react js and firebase for (auth, and database)   
+
+# here's the Demo; https://usefma.github.io/ajiw-chat/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
