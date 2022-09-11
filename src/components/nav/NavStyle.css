@@ -1,0 +1,68 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Arima', cursive;
+    position: fixed;
+    width: 100%;
+    background: url('../../images/chat1.jpg') center/cover no-repeat ;
+    padding: 1rem;
+   
+}
+
+.logo{
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(219, 188, 188);
+    
+}
+.logo-span{
+    color: blue;
+}
+
+.nav-sign-in{
+    margin-left : 1rem;
+    width:  fit-content;
+    padding: 1rem;
+  
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: orchid;
+    border-radius: 1rem;
+    
+    
+}
+.log-out{
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: gray;
+    color: white;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:400px) {
+    .logo{
+        display: none;
+    }
+    .nav-sign-in{
+       
+        width:  fit-content;
+        margin-left: 3rem;
+        
+        
+    }
+    .log-out{
+       
+        width:  fit-content;
+        margin-left: 12rem;
+        
+        
+        
+    }
+}
