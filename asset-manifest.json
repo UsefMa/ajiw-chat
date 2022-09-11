@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ajiw-chat/static/css/main.a7aac18e.css",
+    "main.js": "/ajiw-chat/static/js/main.6233d3b4.js",
+    "static/media/chat1.jpg": "/ajiw-chat/static/media/chat1.c4a7b60da0997a766bfa.jpg",
+    "index.html": "/ajiw-chat/index.html",
+    "main.a7aac18e.css.map": "/ajiw-chat/static/css/main.a7aac18e.css.map",
+    "main.6233d3b4.js.map": "/ajiw-chat/static/js/main.6233d3b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7aac18e.css",
+    "static/js/main.6233d3b4.js"
+  ]
+}
