@@ -9,8 +9,10 @@ import SendMessage from "./SendMessage";
 
 const Chat = () => {
   const [messages, setMassages] = useState([]);
+  
   const scroll = useRef();
 
+  // graping data from firestore
   useEffect(() => {
     const q = query(collection(db, "messages"), orderBy("timestamp"));
     const unsubscribe = onSnapshot(q, (querySnapshot) => {
@@ -32,7 +34,7 @@ const Chat = () => {
         ))}
       {/* Send Message Component */}
       <SendMessage scroll = {scroll} />
-      <span ref={scroll}></span>
+      <span ref={scroll}></span> 
     </div>
   );
 };

@@ -18,7 +18,7 @@ const Nav = () => {
         </div>
         <div className="nav-btns">{user ? <LogOut /> : <SignIn />}</div>
     
-        {/* chat components */}
+       
         
         
       </div>

@@ -13,6 +13,7 @@ const SendMessage = ({scroll}) => {
         alert('Please enter a valid message')
         return
     }
+    // adding data from firestore 
     const {uid, displayName} = auth.currentUser
     await addDoc(collection(db, 'messages'), {
         text: input,
@@ -21,7 +22,7 @@ const SendMessage = ({scroll}) => {
         timestamp: serverTimestamp()
     })
     setInput('')
-    scroll.current.scrollIntoView({behavior: 'smooth'})
+     scroll.current.scrollIntoView({behavior: 'smooth'}) 
   }
   return (
     <div>
